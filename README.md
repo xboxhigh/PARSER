@@ -25,7 +25,7 @@ Download the json-cpp source code from this web site http://sourceforge.net/proj
 		
 	Third, mv the libs and include files to the assign path
 	
-		~$ cp jsoncpp-src-0.5.0/libs/linux-gcc-4.8/libjson_linux-gcc-4.8_libmt.* /usr/local/lib/libjsoncpp.*
+		~$ cp jsoncpp-src-0.5.0/libs/linux-gcc-4.8/libjson_linux-gcc-4.8_libmt.so /usr/local/lib/libjsoncpp.so
 		~$ cp -r jsoncpp-src-0.5.0/include/json /usr/include/
 		
 	Forth, execute the command 'ldconfig' to make the dynamic linker of ljsocpp
