@@ -6,7 +6,8 @@ C++ Parser
 
 ### Installation Steps:
 
-#### Install gumbo-parser, follow this web site https://github.com/google/gumbo-parser
+#### Install gumbo-parser
+follow the web site guide https://github.com/google/gumbo-parser
 ```js
 Check your system has already install the following tools (libtool, make, g++, autoconf, autogen, automake) and is up-to-date.
 ```
@@ -16,9 +17,10 @@ Check your system has already install the following tools (libtool, make, g++, a
 Download the json-cpp source code from this web site http://sourceforge.net/projects/jsoncpp
 
 ```js
-	First, you need to install the scons tool, make sure the version is higher than 2.1.0.
+	First, you need to install the 'scons' tool, make sure the version is higher than 2.1.0.
 	
 	Second, change the current path to the jsoncpp-src-0.5.0, and assign the platform. for example.
+		
 		~$ scons platform=linux-gcc
 		
 	Third, mv the libs and include files to the assign path
