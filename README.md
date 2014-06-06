@@ -12,7 +12,7 @@ Installation Steps:
 2. Install json-cpp
 	* First, you need to install the scons tool, make sure the version is higher than 2.1.0
 	* Second, download the json-cpp source code from this web site http://sourceforge.net/projects/jsoncpp/
-		Use the 0.5.0 version is enough.
+		.Use the 0.5.0 version is enough.
 	* Third, change the current path to the jsoncpp-src-0.5.0, and assign the platform. for example
 		~$ scons platform=linux-gcc
 	* Forth, mv the libs and include files to the assign path
