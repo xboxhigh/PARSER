@@ -10,6 +10,7 @@ Installation Steps:
 	* Check your system has already install the following tools and is up-to-date
 		(libtool, make, g++, autoconf, autogen, automake)
 2. Install json-cpp
+3. 
 ```js
 	First, you need to install the scons tool, make sure the version is higher than 2.1.0
 	Second, download the json-cpp source code from this web site http://sourceforge.net/projects/jsoncpp/
