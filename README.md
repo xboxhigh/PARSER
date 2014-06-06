@@ -4,13 +4,14 @@ PARSER
 C++ Parser
 
 
-Installation Steps:
+### Installation Steps:
 
-1. Install gumbo-parser, follow this web site https://github.com/google/gumbo-parser
-	* Check your system has already install the following tools and is up-to-date
+#### Install gumbo-parser, follow this web site https://github.com/google/gumbo-parser
+```js
+	Check your system has already install the following tools and is up-to-date
 		(libtool, make, g++, autoconf, autogen, automake)
-2. Install json-cpp
-3. 
+```
+#### Install json-cpp
 ```js
 	First, you need to install the scons tool, make sure the version is higher than 2.1.0
 	Second, download the json-cpp source code from this web site http://sourceforge.net/projects/jsoncpp/
@@ -22,5 +23,8 @@ Installation Steps:
 		~$ cp -r jsoncpp-src-0.5.0/include/json /usr/include/
 	Fifth, execute the command ldconfig to make the dynamic linker of ljsocpp
 ```
-3. Test of compile the program
-	* ~$ make parserX
+
+#### Test of compile the program
+```js
+	~$ make parserX
+```
